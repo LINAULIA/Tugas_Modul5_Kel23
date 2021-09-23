@@ -67,19 +67,21 @@ class Kasir extends React.Component {
         <marquee style={{ fontWeight: "bold" }} bgcolor="FFF300" align ="center" direction ="left" scrollamount="10"> SELAMAT DATANG DI L&W ELECTRONIC, PUSAT STORE HP DAN LAPTOP TERBESAR, DAN TERMURAH SEJAGAT RAYA </marquee>
         <div className="titleWrapper">
           <center>
-            <p className="judul">Isi Data Pesanan</p>
+            <p className="judul" style={{ color:"#722ed1", fontFamily:"Arial", fontWeight: "bold" }}>Isi Data Pesanan</p>
             </center>
         </div>
           <div className="inputWrapper">
             <center>
-            <label >Masukkan Nama:</label>
+            <label>Masukkan Nama:</label>
             </center>
             <div>
               <center>
               <input style={{
+                  background: "#efdbff",
                   color: "#4B0082",
                   margin: "auto",
-                  height: "20px",
+                  height: "40px",
+                  border: "#9254de",
                   fontSize: "15px"
                 }}
                 placeholder="Nama"
@@ -95,10 +97,12 @@ class Kasir extends React.Component {
             <div>
               <center>
               <input style={{
-                  color: "#4B0082",
-                  margin: "auto",
-                  height: "20px",
-                  fontSize: "15px"
+                   background: "#efdbff",
+                   color: "#4B0082",
+                   margin: "auto",
+                   height: "40px",
+                   border: "#9254de",
+                   fontSize: "15px"
                 }}
                 placeholder="Alamat"
                 size="50"
@@ -114,9 +118,11 @@ class Kasir extends React.Component {
               <center>
               <input
               style={{
+                background: "#efdbff",
                 color: "#4B0082",
                 margin: "auto",
-                height: "20px",
+                height: "40px",
+                border: "#9254de",
                 fontSize: "15px"
               }}
                 placeholder="No Hp"
@@ -138,7 +144,12 @@ class Kasir extends React.Component {
                 <select
                   onChange={this.handleChangeStuff}
                   name="produk1"
-                  style={{ cursor: "pointer" }}
+                  style={{ cursor: "pointer", background: "#efdbff",
+                  color: "#4B0082",
+                  margin: "auto",
+                  height: "40px",
+                  border: "#9254de",
+                  fontSize: "15px" }}
                 >
                   <option value="0">Handphone</option>
                   <Fragment>
@@ -154,7 +165,12 @@ class Kasir extends React.Component {
                 <select
                   onChange={this.handleChangeStuff}
                   name="produk2"
-                  style={{ cursor: "pointer" }}
+                  style={{ cursor: "pointer", background: "#efdbff",
+                  color: "#4B0082",
+                  margin: "auto",
+                  height: "40px",
+                  border: "#9254de",
+                  fontSize: "15px" }}
                 >
                   <option value="0">Laptop</option>
                   <Fragment>
