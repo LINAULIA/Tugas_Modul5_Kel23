@@ -60,7 +60,7 @@ export default function Footer() {
               </Link>
             </Button>
 
-            {/* <Button>
+            <Button>
               <Link
                 to="/laptop"
                 className={classes.link}
@@ -68,7 +68,8 @@ export default function Footer() {
               >
                 | LAPTOP |
               </Link>
-            </Button> */}
+            </Button>
+            
             <Button>
               <Link
                 to="/kasir"
